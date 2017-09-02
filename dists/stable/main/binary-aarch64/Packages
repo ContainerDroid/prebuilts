@@ -1,0 +1,68 @@
+Package: docker-cli
+Architecture: aarch64
+Installed-Size: 19996
+Maintainer: Fredrik Fornwall @fornwall
+Version: master
+Description: Docker client
+Homepage: https://www.docker.com/
+Filename: dists/stable/main/binary-aarch64/docker-cli_master_aarch64.deb
+Size: 3842984
+SHA256: b799113d12d4d989608e906cae86b6c238936b87f97d5f2d87c4fc8d85e3c9a8
+
+Package: docker-containerd
+Architecture: aarch64
+Installed-Size: 12632
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2.x
+Description: An open and reliable container runtime
+Homepage: https://www.docker.com/
+Filename: dists/stable/main/binary-aarch64/docker-containerd_0.2.x_aarch64.deb
+Size: 2465360
+SHA256: 61fcee6157784056b05947e212949a48101e51622a8e4aeb46b7b4c9183f0491
+
+Package: docker-runc
+Architecture: aarch64
+Installed-Size: 6692
+Maintainer: Fredrik Fornwall @fornwall
+Version: master
+Description: runc container cli tools
+Homepage: https://www.opencontainers.org/
+Filename: dists/stable/main/binary-aarch64/docker-runc_master_aarch64.deb
+Size: 1460652
+SHA256: a9f6e1237d93b67f7f648654e5b017e9e57da3b6a56a6d652d1bd01424c5c09a
+
+Package: docker
+Architecture: aarch64
+Installed-Size: 40180
+Maintainer: Fredrik Fornwall @fornwall
+Version: master
+Description: Docker daemon
+Homepage: https://www.docker.com/
+Depends: docker-cli, docker-runc, docker-containerd
+Filename: dists/stable/main/binary-aarch64/docker_master_aarch64.deb
+Size: 7395108
+SHA256: cf5ff5268487ec125e59996fea4d338793c9af3c96006ca4c0611e4dbe921376
+
+Package: libandroid-support-dev
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Development files for libandroid-support
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support
+Filename: dists/stable/main/binary-aarch64/libandroid-support-dev_22_aarch64.deb
+Size: 2168
+SHA256: 150685ab445b3a0baeb3b1eb33a7aaf488f6c83b7f8203aa8629d788d7a6e035
+
+Package: libandroid-support
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Filename: dists/stable/main/binary-aarch64/libandroid-support_22_aarch64.deb
+Size: 106872
+SHA256: 7fd5756d19651a443269af9350980f4e9ba21a1d994e4f0d39d09e3014f80920
