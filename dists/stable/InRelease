@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Codename: termux
 Version: 1
 Architectures: all aarch64
@@ -9,3 +12,14 @@ SHA256:
  7ac2a517e7a0efd19af5be082a68671387e7001c73f3e848caa543e5fa65a37e 2084 main/binary-all/Packages.xz
  954268a9c235ae038fefe8eeba622135bc6e76eabec1eddfc87288d0de0b80bd 192523 main/binary-aarch64/Packages
  06941b314cdd3776fb1d28ba91a5e80a1c1880fa7856ce1b32fe9de46be1f663 42624 main/binary-aarch64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBCAAGBQJZqwYGAAoJENYuPjjbXbpWQWwH/0mJF7UUFLUuaPteJqnMZlr+
+Mom43DY0mFi8RMiINDZ6erWXzQPyRCmjKqSlxWn9Ox4JW/pQQ5zDZv4qBJP4J6Cw
+8sG0GlLkOAml7kGcvedsDZN88gxC90VqZZWRVoCLwrqJ4vq3D/yuGcXzvjkb4FRf
+R8PvncuwIzTrxmEXT68feJE4oDKfAllDwIVaUJtyhVWJZDoBL1gQCcHbqqMtrATw
+29UO6L7QtSZqAsX8o5ub9qkxAfbaKO3c9PdcqxITluPUXUqotnxJtIvWgT6WAfWt
+AlP5y7gzK7FSjK8nKTAtXJ7kXq+Z+YMUX/wGZnE5Ag0KLT2+BJLoV3TfopJkP7Q=
+=l9Jp
+-----END PGP SIGNATURE-----
