@@ -1,0 +1,11 @@
+Codename: termux
+Version: 1
+Architectures: aarch64 all
+Description: Main repository
+Suite: termux
+Date: Sun, 03 Sep 2017 16:36:24 UTC
+SHA256:
+ de39c5ebf48a2463c6364be795784782ad71f209e51a73f4302a0329efdbce41 12063 main/binary-aarch64/Packages
+ ec38595056708ce718761ba8602fd8cceefda9564ca4afaad0d2814ab134773b 3204 main/binary-aarch64/Packages.xz
+ 8b1cf210c2b05cfba31bebdd11574f9328f6155e1ab3b59f4324caf3de4c4c4c 765 main/binary-all/Packages
+ e9deeb64a8b8786ea9d0ad244818faed5e6ecb98235fbaa06181a6f8be6cc0e4 440 main/binary-all/Packages.xz

@@ -1,0 +1,358 @@
+Package: apt-transport-https
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.12-3
+Description: Https download support for APT
+Homepage: https://packages.debian.org/apt
+Depends: apt, libcurl
+Filename: dists/bootstrap/main/binary-aarch64/apt-transport-https_1.2.12-3_aarch64.deb
+Size: 732
+SHA256: 0997006b6448cd60f6fa69bef2214526f2390dc97be9e26c05a5b3b8cb3fe1eb
+
+Package: apt
+Architecture: aarch64
+Installed-Size: 2488
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2.12-3
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+Depends: liblzma, dpkg, gpgv, libc++
+Essential: yes
+Filename: dists/bootstrap/main/binary-aarch64/apt_1.2.12-3_aarch64.deb
+Size: 562552
+SHA256: cca62e4ecb4e2e255d2f080d1d80e00fd5838ea504445d889ce402197e2919a5
+
+Package: bash-dev
+Architecture: aarch64
+Installed-Size: 416
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.12
+Description: Development files for bash
+Homepage: https://www.gnu.org/software/bash/
+Depends: bash
+Filename: dists/bootstrap/main/binary-aarch64/bash-dev_4.4.12_aarch64.deb
+Size: 54484
+SHA256: aaca9928133fe18cab5701512e9b177536c302dc57486714d95be70c3ec1ace8
+
+Package: bash
+Architecture: aarch64
+Installed-Size: 1244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4.12
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: https://www.gnu.org/software/bash/
+Depends: ncurses, readline, libandroid-support
+Filename: dists/bootstrap/main/binary-aarch64/bash_4.4.12_aarch64.deb
+Size: 328424
+SHA256: 32fd8fa9c34d2b741e6458c53593aeecaefd2f643aab71948471aba32cdc7f72
+
+Package: busybox
+Architecture: aarch64
+Installed-Size: 648
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.27.1-2
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: https://busybox.net/
+Essential: yes
+Conflicts: coreutils (<< 8.25-4)
+Filename: dists/bootstrap/main/binary-aarch64/busybox_1.27.1-2_aarch64.deb
+Size: 263944
+SHA256: c01da3374157ce304dc251743a1cf9e10ee48d2c94e32157cc5bee1c37f0e5aa
+
+Package: curl
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.55.1
+Description: Command line tool for transferring data with URL syntax
+Homepage: https://curl.haxx.se/
+Depends: libcurl
+Filename: dists/bootstrap/main/binary-aarch64/curl_7.55.1_aarch64.deb
+Size: 732
+SHA256: c5b53b48f721d55eab019ffa4aee4f7babfe5495b4ddf4ab6c80385e8e94a752
+
+Package: dpkg-dev
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.24
+Description: Development files for dpkg
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg
+Filename: dists/bootstrap/main/binary-aarch64/dpkg-dev_1.18.24_aarch64.deb
+Size: 18172
+SHA256: fa6c2c8db7bd6c90549b16476ce0b72867fd2846d6e6c7c1ffaed36041244f6a
+
+Package: dpkg
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.24
+Description: Debian package management system
+Homepage: https://packages.debian.org/dpkg
+Depends: busybox, liblzma
+Essential: yes
+Filename: dists/bootstrap/main/binary-aarch64/dpkg_1.18.24_aarch64.deb
+Size: 166060
+SHA256: 72f5e5fcb587c8720df292ddc639411c33a238ecf085b6ec25b0c68fddca4ef0
+
+Package: gnupg-curl
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.22
+Description: GnuPG keyserver helper tools built with libcurl
+Homepage: https://www.gnupg.org/
+Depends: gnupg, libcurl
+Filename: dists/bootstrap/main/binary-aarch64/gnupg-curl_1.4.22_aarch64.deb
+Size: 728
+SHA256: 723fdb69107e5b57b6afec77f4ba8176843ab27528848e87f0f2dc5df55620c6
+
+Package: gnupg
+Architecture: aarch64
+Installed-Size: 1388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.22
+Description: OpenPGP implementation for encrypting and signing data and communication
+Homepage: https://www.gnupg.org/
+Filename: dists/bootstrap/main/binary-aarch64/gnupg_1.4.22_aarch64.deb
+Size: 392420
+SHA256: ffdd15c1d1d22dde30ac205db52737ac2c665cc29b41267c28fdbbae541d2a31
+
+Package: gpgv
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.22
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+Conflicts: gnupg (<= 1.4.21)
+Filename: dists/bootstrap/main/binary-aarch64/gpgv_1.4.22_aarch64.deb
+Size: 732
+SHA256: b746f4bc8bd8c8bc1a6e761c600575618dd16aa2ef877af05d3948a30f571bc7
+
+Package: libandroid-support-dev
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Development files for libandroid-support
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support
+Filename: dists/bootstrap/main/binary-aarch64/libandroid-support-dev_22_aarch64.deb
+Size: 2168
+SHA256: 1c052f7fea180a305b836a6f8d2ccacb5b9df60c4a3a1fe627bbed4df4493f80
+
+Package: libandroid-support
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 22
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://github.com/termux/libandroid-support
+Essential: yes
+Filename: dists/bootstrap/main/binary-aarch64/libandroid-support_22_aarch64.deb
+Size: 106560
+SHA256: da568a41843d5c148df397a1f5970c56e05b91d1430354d4e6e950c226270041
+
+Package: libc++
+Architecture: aarch64
+Installed-Size: 996
+Maintainer: Fredrik Fornwall @fornwall
+Version: 15.2
+Description: C++ Standard Library
+Homepage: https://libcxx.llvm.org/
+Essential: yes
+Filename: dists/bootstrap/main/binary-aarch64/libc++_15.2_aarch64.deb
+Size: 206476
+SHA256: 81a0ab7626baf04a73ac17c22029d4f8ea8812da9bc61b4bf2dc9f8720e2fce1
+
+Package: libcurl-dev
+Architecture: aarch64
+Installed-Size: 2076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.55.1
+Description: Development files for libcurl
+Homepage: https://curl.haxx.se/
+Depends: libcurl
+Filename: dists/bootstrap/main/binary-aarch64/libcurl-dev_7.55.1_aarch64.deb
+Size: 188036
+SHA256: d4fc0a74b2737bc542cdde256db6fe77e2f3b1b648d9a514060955b28ca15450
+
+Package: libcurl
+Architecture: aarch64
+Installed-Size: 688
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.55.1
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.haxx.se/
+Depends: openssl, libnghttp2
+Filename: dists/bootstrap/main/binary-aarch64/libcurl_7.55.1_aarch64.deb
+Size: 218180
+SHA256: 0d386b796e0fcb9b5361583d3c17680df9c96d83d436b67a95a19d91a3420016
+
+Package: liblzma-dev
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.3
+Description: Development files for liblzma
+Homepage: http://tukaani.org/xz/
+Depends: liblzma
+Filename: dists/bootstrap/main/binary-aarch64/liblzma-dev_5.2.3_aarch64.deb
+Size: 35028
+SHA256: 32c0ee5b08f01b1f96641a0667e6e651790a7ca1a59f3948c6897aa8bb8681ed
+
+Package: liblzma
+Architecture: aarch64
+Installed-Size: 356
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.3
+Description: XZ-format compression library
+Homepage: http://tukaani.org/xz/
+Filename: dists/bootstrap/main/binary-aarch64/liblzma_5.2.3_aarch64.deb
+Size: 105616
+SHA256: 6a55327af63e2ebd6f435c1c7798b5294f2e5ed6923866dc2321d81d1f0a70e1
+
+Package: libnghttp2-dev
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.25.0
+Description: Development files for libnghttp2
+Homepage: https://nghttp2.org/
+Depends: libnghttp2
+Filename: dists/bootstrap/main/binary-aarch64/libnghttp2-dev_1.25.0_aarch64.deb
+Size: 31044
+SHA256: a3dd2603fe1b290f113996a25b4e20ed16bbc7797f84f8f5c77b10cdcd2ae220
+
+Package: libnghttp2
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.25.0
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+Filename: dists/bootstrap/main/binary-aarch64/libnghttp2_1.25.0_aarch64.deb
+Size: 67432
+SHA256: dc99dfeb63a13e470a5f1048fce46119216fffe434dcb235efc84b880dd1a904
+
+Package: ncurses-dev
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.20170827
+Description: Development files for ncurses
+Homepage: http://invisible-island.net/ncurses/
+Depends: ncurses
+Filename: dists/bootstrap/main/binary-aarch64/ncurses-dev_6.0.20170827_aarch64.deb
+Size: 330408
+SHA256: c323f05c2af1edbdc5fbfa983308c6342018bc5ab82537c3474b549f7aecf335
+
+Package: ncurses-ui-libs
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.20170827
+Description: Libraries for terminal user interfaces based on ncurses
+Homepage: http://invisible-island.net/ncurses/
+Depends: ncurses
+Filename: dists/bootstrap/main/binary-aarch64/ncurses-ui-libs_6.0.20170827_aarch64.deb
+Size: 740
+SHA256: 501d786ffda2515820b7f71796aab103a61b1b6a8269884dd8fd8d95067cb0a8
+
+Package: ncurses-utils
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.20170827
+Description: Tools for working with terminals
+Homepage: http://invisible-island.net/ncurses/
+Depends: ncurses
+Filename: dists/bootstrap/main/binary-aarch64/ncurses-utils_6.0.20170827_aarch64.deb
+Size: 728
+SHA256: 2a68aad7b8880327a6c1147a56814d85e6cafa0517f4ac9e7d54148e00a540fe
+
+Package: ncurses
+Architecture: aarch64
+Installed-Size: 856
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.0.20170827
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: http://invisible-island.net/ncurses/
+Filename: dists/bootstrap/main/binary-aarch64/ncurses_6.0.20170827_aarch64.deb
+Size: 212820
+SHA256: 3d64e0b0128b659fb79e783862cd6922bcf1f22a69d714798c6cefd3ff201b43
+
+Package: openssl-dev
+Architecture: aarch64
+Installed-Size: 1876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2l-1
+Description: Development files for openssl
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/bootstrap/main/binary-aarch64/openssl-dev_1.0.2l-1_aarch64.deb
+Size: 218324
+SHA256: ee110647a47b384c57df5a06914093255d4f9f4b4b676ded4706cc74ad6d75d3
+
+Package: openssl-tool
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2l-1
+Description: The openssl command line cryptographic tool
+Homepage: https://www.openssl.org/
+Depends: openssl
+Filename: dists/bootstrap/main/binary-aarch64/openssl-tool_1.0.2l-1_aarch64.deb
+Size: 720
+SHA256: 8a93e3315af98b49b5bcaf39e7d818b29a58a9bd1cd24f94d3fbafe4d791d3f9
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 2392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2l-1
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+Depends: ca-certificates
+Filename: dists/bootstrap/main/binary-aarch64/openssl_1.0.2l-1_aarch64.deb
+Size: 694068
+SHA256: 855e364b87ee023c14720abde7c25fd3c7012a12bf1dcfd5b5b0735e856ad4ee
+
+Package: readline-dev
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.3
+Description: Development files for readline
+Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+Depends: readline
+Filename: dists/bootstrap/main/binary-aarch64/readline-dev_7.0.3_aarch64.deb
+Size: 33884
+SHA256: 577a2e896a1e86c8dd16a9741af99dcc9cb5fa6ecd324b0b8e379a68ac0b48df
+
+Package: readline
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.3
+Description: Library providing a set of functions for use by applications that allow users to edit command lines as they are typed in
+Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+Depends: libandroid-support, ncurses
+Filename: dists/bootstrap/main/binary-aarch64/readline_7.0.3_aarch64.deb
+Size: 76744
+SHA256: 68262436b84f51db6275faa9a51d6062fe597071ae075d81120cc499e9a0d4df
+
+Package: xz-utils
+Architecture: aarch64
+Installed-Size: 4
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.2.3
+Description: XZ-format compression tools
+Homepage: http://tukaani.org/xz/
+Depends: liblzma
+Filename: dists/bootstrap/main/binary-aarch64/xz-utils_5.2.3_aarch64.deb
+Size: 716
+SHA256: f2fbdde3b272eb9e523fe517abbd9c42307e2ea37b7d9ed7c9c6f562405a3c91
