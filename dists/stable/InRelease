@@ -6,18 +6,18 @@ Version: 1
 Architectures: aarch64
 Description: Main repository
 Suite: termux
-Date: Sun, 03 Sep 2017 17:38:27 UTC
+Date: Sun, 03 Sep 2017 18:07:49 UTC
 SHA256:
- 97bf19bacf73ff4bbf7cfd45579499dcd57684d945ef1499970c8fb80999c631 192517 main/binary-aarch64/Packages
- 4c309d257ee91f4c620d68bceda5b0849a8d6d6ed0870887846b700173051712 42644 main/binary-aarch64/Packages.xz
+ 60f022ef90989b80275f973c7ad33b926568143abc13d0367e69ce30536a3679 191353 main/binary-aarch64/Packages
+ 9a175abe459ce6ed2247247f578aa0fb9ec3a26aed5eb8fc03abe3465bc7b3be 42440 main/binary-aarch64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJZrD4VAAoJENYuPjjbXbpWatcIAIrzu+IUYH6aV1UdzSUKVhHc
-Kg50tJyHSzqnzVaxg+/prAVRJm5bT8wIEWOsiGV0pGlX5QWmEljSZIiGheriIewB
-Oe9PO/4CWRCt0ULifAfDHE9olVRgM3X1uEgDAwT/0XfFOrtQGBrZMij/3VotR0T+
-v7wMKDtd6cXAbscZO/ADJPNEjK/g1Y8tYJy5p1JDBeGwniJT9jzm/Dy4jRNt30u8
-cB95OYSkWrIbNBW/1bNq08HL6ch7joPswXqAUbRJhFlOx9rNydpOKplg1f1dEtzQ
-pEFabEkuQ3I7jWUee/0Sf39ybldRX/qTyzLmKVwuu81byPU4Xmy+MtBBvEilD6I=
-=ZBUM
+iQEcBAEBCAAGBQJZrET3AAoJENYuPjjbXbpWCioH/ArFJ08dcmT7grARDc6i0Fo4
+lqBD4eCHIVa83ELSWFfBkFr3NVUY10ptyFmwODvzHc6INl+Vhtfi5sd2zZvBeui4
+55Ntu19Bmrzk7tCfkvwaQA5YzOSKdbRHDVJCj3VEI7MS/ncFHgZrIo6VAvbNgZzm
+gcrqzBbE/1BlXp/vIX9GrRL+WFx+lKyNyz5kEdchRpDTz0Cv4lfrlOpCCC5u87PE
+kDcgS/u4Y10GW1JHsP0G1HVogeQLfiIt1pvPk5J6V2hD5wpbhHnKEzsW54tpR5Jr
+BfUYL7rlx0vubGiXx48f31HNKi5+M+syIkFdakZk08paA5jyHVl5lcaSuTGp0oY=
+=5Efd
 -----END PGP SIGNATURE-----
