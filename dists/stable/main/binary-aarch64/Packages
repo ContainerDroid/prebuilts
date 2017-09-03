@@ -647,12 +647,12 @@ Package: docker-cli
 Architecture: aarch64
 Installed-Size: 19996
 Maintainer: Fredrik Fornwall @fornwall
-Version: master
+Version: 17.06
 Description: Docker client
 Homepage: https://www.docker.com/
-Filename: dists/stable/main/binary-aarch64/docker-cli_master_aarch64.deb
-Size: 3835044
-SHA256: 722256c997ec3098da58bf0a31c559fa3a2401ca2522ed1127542fe755af1947
+Filename: dists/stable/main/binary-aarch64/docker-cli_17.06_aarch64.deb
+Size: 3836632
+SHA256: 342e1eb465c8e9816740d4adf1b241e485bc03d7430f41c0c65c03e531d06972
 
 Package: docker-containerd
 Architecture: aarch64
@@ -662,31 +662,31 @@ Version: 0.2.x
 Description: An open and reliable container runtime
 Homepage: https://www.docker.com/
 Filename: dists/stable/main/binary-aarch64/docker-containerd_0.2.x_aarch64.deb
-Size: 2465020
-SHA256: 4956c6e05498f5e253df70ea3c4ed640b9b44188734b157a09bf79f819437802
+Size: 2457388
+SHA256: ee1a99b0afef811c93d5545caa07a5aed0ac48a67b3f1e7f2a91d0c7e3273d1a
 
 Package: docker-runc
 Architecture: aarch64
 Installed-Size: 6692
 Maintainer: Fredrik Fornwall @fornwall
-Version: master
+Version: 17.06
 Description: runc container cli tools
 Homepage: https://www.opencontainers.org/
-Filename: dists/stable/main/binary-aarch64/docker-runc_master_aarch64.deb
-Size: 1461336
-SHA256: dbbfc5c6ae1801c592b2c2ad80f977c97122fbb6ae4e70ca3633bf9081dcc712
+Filename: dists/stable/main/binary-aarch64/docker-runc_17.06_aarch64.deb
+Size: 1462280
+SHA256: 5d58c38a347bc55de7a702c5ea38c2f2a75cfda73119c1b5dd001f670667fecb
 
 Package: docker
 Architecture: aarch64
-Installed-Size: 40180
+Installed-Size: 40184
 Maintainer: Fredrik Fornwall @fornwall
-Version: master
+Version: 17.06
 Description: Docker daemon
 Homepage: https://www.docker.com/
 Depends: docker-cli, docker-runc, docker-containerd
-Filename: dists/stable/main/binary-aarch64/docker_master_aarch64.deb
-Size: 7419772
-SHA256: 686655973e9ec85183bd25d42feb8fed6c2ddda4c1e1520dfbc71f8ad538f854
+Filename: dists/stable/main/binary-aarch64/docker_17.06_aarch64.deb
+Size: 7374768
+SHA256: 4b2858a3032fdc44803c4129e6f0d20e31b9dc105f96ea9c7a9f79eedc94acc9
 
 Package: dos2unix
 Architecture: aarch64
