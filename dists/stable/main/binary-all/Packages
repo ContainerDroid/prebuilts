@@ -1,121 +1,181 @@
 Package: ack-grep
 Architecture: all
-Installed-Size: 152
+Installed-Size: 136
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.18
 Description: Tool like grep optimized for programmers
 Homepage: https://beyondgrep.com/
 Depends: perl, coreutils
 Filename: dists/stable/main/binary-all/ack-grep_2.18_all.deb
-Size: 36824
-SHA256: ff22afcbcbfddf2de3894ebde8b63f008795f6ea389e084e50a91be48dcbd115
+Size: 36812
+SHA256: 77c9d2c10a7dde6e48cf82fec80063e195e32f11121d9054ca769a823bfe1633
 
 Package: apksigner
 Architecture: all
-Installed-Size: 3900
+Installed-Size: 3860
 Maintainer: Fredrik Fornwall @fornwall
 Version: 0.4
 Description: APK signing tool
 Homepage: https://github.com/fornwall/apksigner
 Filename: dists/stable/main/binary-all/apksigner_0.4_all.deb
-Size: 1146408
-SHA256: fcdf92e7a46253b6f2926f0a8dce2156bb52508edbf0bb70c83da5ea8863346c
+Size: 1146552
+SHA256: d26ed84dcd8957b2ee4e6ad9bd268749f8935d8edd54406aa30ff1e9b5c07b7f
+
+Package: asciinema
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.0
+Description: Record and share your terminal sessions, the right way
+Homepage: https://asciinema.org/
+Depends: python, ncurses-utils
+Filename: dists/stable/main/binary-all/asciinema_1.4.0_all.deb
+Size: 32600
+SHA256: 91518d24491c6f8156692296eb76d39b58440ab7d07fa2fd16c0f3fd454ddf3a
 
 Package: autoconf
 Architecture: all
-Installed-Size: 1940
+Installed-Size: 1516
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.69
 Description: Creator of shell scripts to configure source code packages
 Homepage: http://www.gnu.org/software/autoconf/autoconf.html
 Depends: m4, make, perl
 Filename: dists/stable/main/binary-all/autoconf_2.69_all.deb
-Size: 272932
-SHA256: 5c84308cbddeefc4303b263d97a1115fdaab0dcae2639a4fc9ce62417022fb80
+Size: 267772
+SHA256: 53ed7a4799dfc1ec6842275ee64e9a2421be522179a0a6651175651168962d74
 
 Package: automake
 Architecture: all
-Installed-Size: 1632
+Installed-Size: 1124
 Maintainer: Fredrik Fornwall @fornwall
 Version: 1.15.1
 Description: Tool for automatically generating Makefile.in files
 Homepage: https://www.gnu.org/software/automake/
 Depends: autoconf
 Filename: dists/stable/main/binary-all/automake_1.15.1_all.deb
-Size: 315680
-SHA256: 6158d2f5d0a0f4ae19a384df145c514502773b836269c76dc8b01793291dd59f
+Size: 315276
+SHA256: eb6ccb59776da1be9e20582ab6fa9db54b7c2ae9f979580cb90242a41e5d9e61
+
+Package: bash-completion
+Architecture: all
+Installed-Size: 1272
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7
+Description: Programmable completion for the bash shell
+Homepage: https://github.com/scop/bash-completion
+Depends: bash
+Filename: dists/stable/main/binary-all/bash-completion_2.7_all.deb
+Size: 142416
+SHA256: 3eabb3b58bb06cc59235cb89a06f9f42f9e4e0cb7ea5f501a133dee036b652b6
+
+Package: byobu
+Architecture: all
+Installed-Size: 180
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.119
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Homepage: http://byobu.co/
+Depends: gawk, tmux
+Filename: dists/stable/main/binary-all/byobu_5.119_all.deb
+Size: 72176
+SHA256: da30f2339b81e36fd274e1e754589c0e99859577a571a24eeaa785e7483bddc1
 
 Package: ca-certificates-java
 Architecture: all
-Installed-Size: 4
+Installed-Size: 188
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20170607
 Description: Common CA certificates (java keystore format)
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/stable/main/binary-all/ca-certificates-java_20170607_all.deb
-Size: 732
-SHA256: 9d9a2108734a7a2bfb1bad0cfdc970645e434040b33104a7479f42529771b14e
+Size: 124304
+SHA256: 1710d8681317197ecf838804027531975f01fcd095c956db6d122770637db688
 
 Package: ca-certificates
 Architecture: all
-Installed-Size: 476
+Installed-Size: 248
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20170607
 Description: Common CA certificates
 Homepage: https://curl.haxx.se/docs/caextract.html
 Filename: dists/stable/main/binary-all/ca-certificates_20170607_all.deb
-Size: 261088
-SHA256: a86fd62554d8780a86f9dcb55fe5cb9d48804b8ec235573fb7f8c03c19efe059
+Size: 138140
+SHA256: 1a0261b9caf53d386eec8825d0175f130af2a26b3138a96b2ee4bc951a9f00de
 
 Package: colordiff
 Architecture: all
-Installed-Size: 68
+Installed-Size: 20
 Maintainer: Oliver Schmidhauser @Neo-Oli
 Version: 1.0.18
 Description: The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting.
 Homepage: http://www.colordiff.org
 Depends: perl
 Filename: dists/stable/main/binary-all/colordiff_1.0.18_all.deb
-Size: 8872
-SHA256: ccb5dcb93f61521d0aa8525e11c81124bfc07ce24549b123fd5280b501c4098f
+Size: 8836
+SHA256: 5ab315c7538abaf259cc01c81eadb22b234b4ec07b7c31cc0a4f8073e692465e
 
 Package: cowsay
 Architecture: all
-Installed-Size: 204
+Installed-Size: 16
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.03
 Description: Program which generates ASCII pictures of a cow with a message
 Homepage: https://en.wikipedia.org/wiki/Cowsay
 Depends: perl
 Filename: dists/stable/main/binary-all/cowsay_3.03_all.deb
-Size: 10216
-SHA256: 14f7b061705d4314dce73374924ec3a3b4f2066bf2c36817acfc807ea3cd4e2b
+Size: 10236
+SHA256: ee891d8c8dc4a2979faecb7078bb0923cab9e6d68b4fea92533a9ee6662ed676
 
 Package: dx
 Architecture: all
-Installed-Size: 832
+Installed-Size: 800
 Maintainer: Fredrik Fornwall @fornwall
 Version: 26.0.1
 Description: Command which takes in class files and reformulates them for usage on Android
 Homepage: http://developer.android.com/tools/help/index.html
 Filename: dists/stable/main/binary-all/dx_26.0.1_all.deb
-Size: 282408
-SHA256: 7d895c5e3a90a102ed2b1aeef0a765412069d81a2c56b93fe8df90a05286637c
+Size: 282844
+SHA256: 2a7c49178a185e3c4a65117a2c4084ecc534ad52fce6d027d605fbb968062a36
 
 Package: ecj
 Architecture: all
-Installed-Size: 7548
+Installed-Size: 4976
 Maintainer: Fredrik Fornwall @fornwall
 Version: 4.6.2-1
 Description: Eclipse Compiler for Java
 Homepage: http://www.eclipse.org/jdt/core/
 Filename: dists/stable/main/binary-all/ecj_4.6.2-1_all.deb
-Size: 6183788
-SHA256: 12cf400ef80f8dd52da46c07c900267fab3290e458b9309ee1e3bdff20532aff
+Size: 6185276
+SHA256: b226aca4cfca67d5dceaa01ec11d633bce86ef1917bf3c06f1db01ed7169adb8
+
+Package: linux-man-pages
+Architecture: all
+Installed-Size: 9788
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.11
+Description: Man pages for linux kernel and C library interfaces
+Homepage: https://www.kernel.org/doc/man-pages/
+Depends: man
+Filename: dists/stable/main/binary-all/linux-man-pages_4.11_all.deb
+Size: 2192496
+SHA256: 42bf43a6a113722e1eefad53e77da93acfd9df3d87650580240d836ef46bd8e4
+
+Package: luarocks
+Architecture: all
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.2
+Description: Deployment and management system for Lua modules
+Homepage: https://luarocks.org/
+Depends: curl, lua
+Filename: dists/stable/main/binary-all/luarocks_2.4.2_all.deb
+Size: 90052
+SHA256: 0467633cf3b42e1a4f731c611a503a33ec04006d87e491d1e613378e06f424cf
 
 Package: mime-support
 Architecture: all
-Installed-Size: 32
+Installed-Size: 20
 Maintainer: Fredrik Fornwall @fornwall
 Version: 3.60
 Description: MIME type associations for file types
@@ -123,31 +183,127 @@ Homepage: https://packages.debian.org/en/stretch/mime-support
 Conflicts: mutt (<< 1.8.3-1)
 Filename: dists/stable/main/binary-all/mime-support_3.60_all.deb
 Size: 7360
-SHA256: 2deac8b5149a5fa05ad0572504b35ff35dae21bc90b9fbf0a8da3931eec1a1d8
+SHA256: 0fbdff58ff88db5575bebf61876af66c53e09f2b0acc685ca7394e07cae7b4f6
+
+Package: neofetch
+Architecture: all
+Installed-Size: 168
+Maintainer: Muhammad Herdiansyah @konimex
+Version: 3.2.0
+Description: Simple system information script
+Homepage: https://github.com/dylanaraps/neofetch
+Depends: bash
+Filename: dists/stable/main/binary-all/neofetch_3.2.0_all.deb
+Size: 59416
+SHA256: e6c7dce512cd42969877744a1860c68c7af1bf19acfe55e242f9d484c9fa0553
 
 Package: parallel
 Architecture: all
-Installed-Size: 996
+Installed-Size: 872
 Maintainer: Fredrik Fornwall @fornwall
 Version: 20170722
 Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
 Homepage: http://www.gnu.org/software/parallel/
 Depends: perl
 Filename: dists/stable/main/binary-all/parallel_20170722_all.deb
-Size: 187192
-SHA256: 9e4003a3bbcfcb43e32d8a9efaebae8d2c1f017e4148be4bb27fc20557b9b001
+Size: 187012
+SHA256: c816c0663339d3e797a4e52c670bcbc4e754200de137b75f33f604caef17960d
+
+Package: pass
+Architecture: all
+Installed-Size: 40
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.7.1-2
+Description: Lightweight directory-based password manager
+Homepage: https://www.passwordstore.org/
+Depends: bash, gnupg2, tree
+Filename: dists/stable/main/binary-all/pass_1.7.1-2_all.deb
+Size: 13696
+SHA256: 875cfa2901df16af7404ad10c3f2973f00e3ed97b10a47d4393971b419394489
+
+Package: pastebinit
+Architecture: all
+Installed-Size: 20
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.5
+Description: Command-line pastebin client
+Homepage: https://launchpad.net/pastebinit
+Depends: python
+Filename: dists/stable/main/binary-all/pastebinit_1.5_all.deb
+Size: 7536
+SHA256: 3f4c36cf9146d277649a8ab2227d4d43ff1cb6f2d3715aca876d43b4129c0f49
+
+Package: pathpicker
+Architecture: all
+Installed-Size: 176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.2
+Description: Facebook PathPicker - a terminal-based file picker
+Homepage: https://facebook.github.io/PathPicker/
+Depends: bash,python
+Filename: dists/stable/main/binary-all/pathpicker_0.7.2_all.deb
+Size: 37504
+SHA256: caf0fb67320730da4056a48cdf31c8ca8c78e55b7b0e65aae2f90abc08f4c59c
+
+Package: ranger
+Architecture: all
+Installed-Size: 452
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.1
+Description: File manager with VI key bindings
+Homepage: http://ranger.nongnu.org/
+Depends: python, file
+Filename: dists/stable/main/binary-all/ranger_1.8.1_all.deb
+Size: 124520
+SHA256: 7e6976a16fe9befe022519b739556050756b5de25ff66976d326b2d9e14a73fa
+
+Package: screenfetch
+Architecture: all
+Installed-Size: 216
+Maintainer: Pierre Rudloff @Rudloff
+Version: 3.8.0
+Description: Bash Screenshot Information Tool
+Homepage: https://github.com/KittyKatt/screenFetch
+Depends: bash
+Filename: dists/stable/main/binary-all/screenfetch_3.8.0_all.deb
+Size: 43880
+SHA256: f8962b7e50638a6ed628bad3114d583e2e86c89462b92c6fe5616dd86b62e016
 
 Package: stow
 Architecture: all
-Installed-Size: 168
+Installed-Size: 112
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.2
 Description: Stow is a tool for managing the installation of multiple software packages in the same run-time directory tree. 
 Homepage: https://www.gnu.org/software/stow/
 Depends: perl
 Filename: dists/stable/main/binary-all/stow_2.2.2_all.deb
-Size: 24720
-SHA256: bcc4d0f75b4d7e36e94a9fcea7335945214f386197af95024358d22e39966c60
+Size: 24724
+SHA256: 7a8e6abb5152056a0b74db790d0fc84106201e4fff8a9325649079ee7b88f2e1
+
+Package: termux-apt-repo
+Architecture: all
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: Script to create Termux apt repositories
+Homepage: https://github.com/termux/termux-apt-repo
+Depends: binutils, python, tar
+Filename: dists/stable/main/binary-all/termux-apt-repo_0.2_all.deb
+Size: 2660
+SHA256: 353fa48092bc789c5f368f4e67f770021009f59bc8243f0dae56dc734c8b4095
+
+Package: termux-create-package
+Architecture: all
+Installed-Size: 0
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+Depends: python
+Filename: dists/stable/main/binary-all/termux-create-package_0.4_all.deb
+Size: 2644
+SHA256: 71de2b2573a095d5db19b879029de2181b5bf0ea740f9fdeba7548763119d3ed
 
 Package: termux-tools
 Architecture: all
@@ -162,11 +318,11 @@ SHA256: 1e05e9a091b8de596892046763a70f5fcaf615db0038f66b10300fadbadfff34
 
 Package: vim-runtime
 Architecture: all
-Installed-Size: 4
+Installed-Size: 14308
 Maintainer: Fredrik Fornwall @fornwall
 Version: 8.0.0979
 Description: Vi IMproved - Runtime files
 Homepage: http://www.vim.org/
 Filename: dists/stable/main/binary-all/vim-runtime_8.0.0979_all.deb
-Size: 700
-SHA256: acad7b6458045fea0d3e940d438806ef803f306bb16f59085ae006986f3b0bbc
+Size: 3762884
+SHA256: 41b7a39e87d254ae4f867a55224c904bac98dfbacc284abb0226501541c351d9

@@ -3,21 +3,23 @@ Hash: SHA256
 
 Codename: termux
 Version: 1
-Architectures: aarch64
+Architectures: aarch64 all
 Description: Main repository
 Suite: termux
-Date: Sun, 03 Sep 2017 18:07:49 UTC
+Date: Mon, 11 Sep 2017 22:09:45 UTC
 SHA256:
- 60f022ef90989b80275f973c7ad33b926568143abc13d0367e69ce30536a3679 191353 main/binary-aarch64/Packages
- 9a175abe459ce6ed2247247f578aa0fb9ec3a26aed5eb8fc03abe3465bc7b3be 42440 main/binary-aarch64/Packages.xz
+ 88f2895fe03277ab44f78a1e0b542490b20e8a043b13a89a6908bfac5b538168 234870 main/binary-aarch64/Packages
+ 40cacc928a9354f8eb6f49a6fcc1006325f68daad93645058c63f191c7895c81 51444 main/binary-aarch64/Packages.xz
+ beeea9a9eb39b580ca2c5636f4a875d38feb8da113b7c8d358c886727a61caac 10772 main/binary-all/Packages
+ e187475e91ac9e6540d9bdb716bab667424ea5906a515a20ac9ad72b70990356 3476 main/binary-all/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJZrET3AAoJENYuPjjbXbpWCioH/ArFJ08dcmT7grARDc6i0Fo4
-lqBD4eCHIVa83ELSWFfBkFr3NVUY10ptyFmwODvzHc6INl+Vhtfi5sd2zZvBeui4
-55Ntu19Bmrzk7tCfkvwaQA5YzOSKdbRHDVJCj3VEI7MS/ncFHgZrIo6VAvbNgZzm
-gcrqzBbE/1BlXp/vIX9GrRL+WFx+lKyNyz5kEdchRpDTz0Cv4lfrlOpCCC5u87PE
-kDcgS/u4Y10GW1JHsP0G1HVogeQLfiIt1pvPk5J6V2hD5wpbhHnKEzsW54tpR5Jr
-BfUYL7rlx0vubGiXx48f31HNKi5+M+syIkFdakZk08paA5jyHVl5lcaSuTGp0oY=
-=5Efd
+iQEcBAEBCAAGBQJZtwmsAAoJENYuPjjbXbpWUKAH/1UdaLx2baBB45KHmJLzu9Ry
+Eta4vNfQSbhOe9emsC2fCxCn1DaPs+BRwdZahm0Fj7/htxTCjM214DQvgc7DUydA
+bn9SthKeWIoCmHxeECLNcSZjKSeg4T3b8xhCW42siFt7HaM+PxXyToWbrXjkO2MI
+Fe6fDf1cWNnFgPIcK9OGBee81zql3MzjNj7e8Emf7pPaxJA+OaYF2WiPMM4BRG+m
+vwTmQPK2f5MWz6qEFXMer4UBS89aJPa3AgHMkPfKeyC9a9pJnFuLQrKTZc9UL47n
+yNqtBj2cWwIh+Pyllzf5x2Ulm+IRj64+l4Y3Hi7xlTbDhgoXRb8ufYpIedOOSwY=
+=k0TU
 -----END PGP SIGNATURE-----
