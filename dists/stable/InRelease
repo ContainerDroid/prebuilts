@@ -3,23 +3,23 @@ Hash: SHA256
 
 Codename: termux
 Version: 1
-Architectures: all aarch64
+Architectures: aarch64 all
 Description: Main repository
 Suite: termux
-Date: Tue, 12 Sep 2017 07:41:13 UTC
+Date: Tue, 12 Sep 2017 20:39:05 UTC
 SHA256:
- a71529df578a9419a41084efa1394ea7d5275a2cb8c81b4bbaccd5dd008dbb2e 10772 main/binary-all/Packages
- a9ab16c59d03f377c96ecbcaa1e9a9f79dadc8ce77f8878ecca7a3e77aa71007 3488 main/binary-all/Packages.xz
- 0d56653f454e6ebaf0a13290d3cf1f87444338232c01a1a102adfc203e61c84e 234007 main/binary-aarch64/Packages
- 39bcf9c1707f4d2da9d3ebf3a721bef5d57fb438d3818aa82f2f4ddf374f8a9c 51380 main/binary-aarch64/Packages.xz
+ e41318787f1e9043e60c7d69dff85de3d02c1607811a65c2adc7a657b3146523 234044 main/binary-aarch64/Packages
+ d0a9ba9053b57d38922619bafc7753ac30dec38298b8285515c234535b4c4f75 51360 main/binary-aarch64/Packages.xz
+ 44584274ca059352dd55975e9256d868e223c1b380a406e9f455dbe4d7a9b926 10436 main/binary-all/Packages
+ 90b1eb814469262e2ae9e5bb30257e03f15b71a9c30d6e5e55dfe86aa21a629b 3408 main/binary-all/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJZt4+cAAoJENYuPjjbXbpWsT8H/0gIE2IiqE7Tw9SkqIqgLHxb
-VkTNVe03yNUBBMuP6lsuJILOWNHEIpopXOFxV73UEQFPue5hj3rMu8WvwHog7d8Q
-hdl7YWCWTd6wCwFsJ4fDHxhWhqlsfLMCrn6X8tbmhW9xKA3t6fmA7CJL5A73o3QV
-jaix89er7cBB5kRnjcYyrTJ9PLVLJwhH/4FvLr8eniUmUoiOSRzjF8estwbQ6dr7
-QtVwhgLn1Cvm90zN0Zn0hNn0C1/IxCEcdJccrKGp9XL/7q58Lxo0dcxcjSJQ0qTR
-dLZXRbtnUTy3JpPlTRtR2YFJwJQIaEeYa9Bc5RGHmBIdmu+sa2Y/e3rE2gX4H2w=
-=q1u9
+iQEcBAEBCAAGBQJZuEXsAAoJENYuPjjbXbpW2hkIAMJLAs3c5jRwId9CoKRqWb0a
+otqvuvnHFwN0ERvbU6ghLnLDV+50dwjfDJ/2B1cJMm/5WV+5j5x69HFNne8jbSFJ
+xcer7BauJ/eFPhTkcD5m+EplNLiq0OJCNWtBJDr9gMqH5l/dU3DTPbjEvnmitPi3
+kCYW6t0yERwoth3ODgYBvDleXRyussN88jisVR1visEuJtMVgptgF97+8Fcm91An
+3GpSGKVh5J5unhe3FJyqBNOE8HBBa3i8JwPPpMf0JHr5fVIjjm4D0/JX05D1MxQ0
+EoFwYCuy4/NDATOSqQJz6OMX4SPivu8koGAWfXYWgAC2ogxuPd+3PK1T+MmXDp8=
+=+znJ
 -----END PGP SIGNATURE-----

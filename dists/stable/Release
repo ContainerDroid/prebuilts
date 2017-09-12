@@ -1,11 +1,11 @@
 Codename: termux
 Version: 1
-Architectures: all aarch64
+Architectures: aarch64 all
 Description: Main repository
 Suite: termux
-Date: Tue, 12 Sep 2017 07:41:13 UTC
+Date: Tue, 12 Sep 2017 20:39:05 UTC
 SHA256:
- a71529df578a9419a41084efa1394ea7d5275a2cb8c81b4bbaccd5dd008dbb2e 10772 main/binary-all/Packages
- a9ab16c59d03f377c96ecbcaa1e9a9f79dadc8ce77f8878ecca7a3e77aa71007 3488 main/binary-all/Packages.xz
- 0d56653f454e6ebaf0a13290d3cf1f87444338232c01a1a102adfc203e61c84e 234007 main/binary-aarch64/Packages
- 39bcf9c1707f4d2da9d3ebf3a721bef5d57fb438d3818aa82f2f4ddf374f8a9c 51380 main/binary-aarch64/Packages.xz
+ e41318787f1e9043e60c7d69dff85de3d02c1607811a65c2adc7a657b3146523 234044 main/binary-aarch64/Packages
+ d0a9ba9053b57d38922619bafc7753ac30dec38298b8285515c234535b4c4f75 51360 main/binary-aarch64/Packages.xz
+ 44584274ca059352dd55975e9256d868e223c1b380a406e9f455dbe4d7a9b926 10436 main/binary-all/Packages
+ 90b1eb814469262e2ae9e5bb30257e03f15b71a9c30d6e5e55dfe86aa21a629b 3408 main/binary-all/Packages.xz
