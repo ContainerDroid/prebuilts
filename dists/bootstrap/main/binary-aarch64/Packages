@@ -132,6 +132,17 @@ Filename: dists/bootstrap/main/binary-aarch64/liblzma_5.2.3_aarch64.deb
 Size: 57076
 SHA256: ea94813ecf044d952fbfde11768117466cf6cca22fa7a2a1adcef15be7c8083e
 
+Package: libnghttp2
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.25.0
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+Filename: dists/bootstrap/main/binary-aarch64/libnghttp2_1.25.0_aarch64.deb
+Size: 40060
+SHA256: 8c3ff9eeead90b575af08b0c306263fe334ca9f1edc0b1b61746546f7a394326
+
 Package: libutil
 Architecture: aarch64
 Installed-Size: 8
@@ -153,6 +164,18 @@ Homepage: http://invisible-island.net/ncurses/
 Filename: dists/bootstrap/main/binary-aarch64/ncurses_6.0.20170827_aarch64.deb
 Size: 110016
 SHA256: 83933360d72d506aacb1f46a1f1eedf734a72866006609946301b37ef0d61770
+
+Package: openssl
+Architecture: aarch64
+Installed-Size: 1860
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.2l-1
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+Depends: ca-certificates
+Filename: dists/bootstrap/main/binary-aarch64/openssl_1.0.2l-1_aarch64.deb
+Size: 553412
+SHA256: bd27717b4087be4918110423a734d156508546741edc4d52071857c9c3f59c46
 
 Package: readline
 Architecture: aarch64

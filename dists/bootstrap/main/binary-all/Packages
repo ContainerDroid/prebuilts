@@ -1,0 +1,10 @@
+Package: ca-certificates
+Architecture: all
+Installed-Size: 248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20170607
+Description: Common CA certificates
+Homepage: https://curl.haxx.se/docs/caextract.html
+Filename: dists/bootstrap/main/binary-all/ca-certificates_20170607_all.deb
+Size: 138128
+SHA256: d784110d2a34970f088ecb65effc2316e3853d14e8ec26684b994d0a6447cf25
