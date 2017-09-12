@@ -5893,20 +5893,20 @@ Description: Development files for readline
 Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 Depends: readline
 Filename: dists/stable/main/binary-aarch64/readline-dev_7.0.3_aarch64.deb
-Size: 33876
-SHA256: 3411408e4c4e75c398bcbe12712f891c022db90101a84cb3199e5782bb8dccb0
+Size: 33888
+SHA256: 54dbbf3156b0980ee85b3b04a552f67373e338b718f9cc6d200419fbd6477466
 
 Package: readline
 Architecture: aarch64
-Installed-Size: 300
+Installed-Size: 304
 Maintainer: Fredrik Fornwall @fornwall
 Version: 7.0.3
 Description: Library providing a set of functions for use by applications that allow users to edit command lines as they are typed in
 Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
 Depends: libandroid-support, ncurses
 Filename: dists/stable/main/binary-aarch64/readline_7.0.3_aarch64.deb
-Size: 77284
-SHA256: 13a4848b1d2e8cb896b6eef86ff1a05762b08df3ae7bce2f6ccada8d8b82490b
+Size: 77852
+SHA256: 347525df6ff992f2e11da67edc8e3e8046e42670b8468789f74b22449c665c58
 
 Package: redir
 Architecture: aarch64
