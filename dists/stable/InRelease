@@ -3,23 +3,23 @@ Hash: SHA256
 
 Codename: termux
 Version: 1
-Architectures: aarch64 all
+Architectures: all aarch64
 Description: Main repository
 Suite: termux
-Date: Mon, 11 Sep 2017 22:09:45 UTC
+Date: Tue, 12 Sep 2017 07:41:13 UTC
 SHA256:
- 88f2895fe03277ab44f78a1e0b542490b20e8a043b13a89a6908bfac5b538168 234870 main/binary-aarch64/Packages
- 40cacc928a9354f8eb6f49a6fcc1006325f68daad93645058c63f191c7895c81 51444 main/binary-aarch64/Packages.xz
- beeea9a9eb39b580ca2c5636f4a875d38feb8da113b7c8d358c886727a61caac 10772 main/binary-all/Packages
- e187475e91ac9e6540d9bdb716bab667424ea5906a515a20ac9ad72b70990356 3476 main/binary-all/Packages.xz
+ a71529df578a9419a41084efa1394ea7d5275a2cb8c81b4bbaccd5dd008dbb2e 10772 main/binary-all/Packages
+ a9ab16c59d03f377c96ecbcaa1e9a9f79dadc8ce77f8878ecca7a3e77aa71007 3488 main/binary-all/Packages.xz
+ 0d56653f454e6ebaf0a13290d3cf1f87444338232c01a1a102adfc203e61c84e 234007 main/binary-aarch64/Packages
+ 39bcf9c1707f4d2da9d3ebf3a721bef5d57fb438d3818aa82f2f4ddf374f8a9c 51380 main/binary-aarch64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCAAGBQJZtwmsAAoJENYuPjjbXbpWUKAH/1UdaLx2baBB45KHmJLzu9Ry
-Eta4vNfQSbhOe9emsC2fCxCn1DaPs+BRwdZahm0Fj7/htxTCjM214DQvgc7DUydA
-bn9SthKeWIoCmHxeECLNcSZjKSeg4T3b8xhCW42siFt7HaM+PxXyToWbrXjkO2MI
-Fe6fDf1cWNnFgPIcK9OGBee81zql3MzjNj7e8Emf7pPaxJA+OaYF2WiPMM4BRG+m
-vwTmQPK2f5MWz6qEFXMer4UBS89aJPa3AgHMkPfKeyC9a9pJnFuLQrKTZc9UL47n
-yNqtBj2cWwIh+Pyllzf5x2Ulm+IRj64+l4Y3Hi7xlTbDhgoXRb8ufYpIedOOSwY=
-=k0TU
+iQEcBAEBCAAGBQJZt4+cAAoJENYuPjjbXbpWsT8H/0gIE2IiqE7Tw9SkqIqgLHxb
+VkTNVe03yNUBBMuP6lsuJILOWNHEIpopXOFxV73UEQFPue5hj3rMu8WvwHog7d8Q
+hdl7YWCWTd6wCwFsJ4fDHxhWhqlsfLMCrn6X8tbmhW9xKA3t6fmA7CJL5A73o3QV
+jaix89er7cBB5kRnjcYyrTJ9PLVLJwhH/4FvLr8eniUmUoiOSRzjF8estwbQ6dr7
+QtVwhgLn1Cvm90zN0Zn0hNn0C1/IxCEcdJccrKGp9XL/7q58Lxo0dcxcjSJQ0qTR
+dLZXRbtnUTy3JpPlTRtR2YFJwJQIaEeYa9Bc5RGHmBIdmu+sa2Y/e3rE2gX4H2w=
+=q1u9
 -----END PGP SIGNATURE-----
