@@ -120,6 +120,17 @@ Filename: dists/bootstrap/main/binary-aarch64/liblzma_5.2.3_aarch64.deb
 Size: 57076
 SHA256: ea94813ecf044d952fbfde11768117466cf6cca22fa7a2a1adcef15be7c8083e
 
+Package: libutil
+Architecture: aarch64
+Installed-Size: 8
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3
+Description: Library with terminal functions
+Homepage: https://refspecs.linuxbase.org/LSB_2.1.0/LSB-generic/LSB-generic/libutil.html
+Filename: dists/bootstrap/main/binary-aarch64/libutil_0.3_aarch64.deb
+Size: 2148
+SHA256: cf3b9a43b5f52f99e474d5cbc35faed1293277d01b8e6fc4383429c5a97af388
+
 Package: ncurses
 Architecture: aarch64
 Installed-Size: 344
