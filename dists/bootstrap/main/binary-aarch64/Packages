@@ -109,6 +109,18 @@ Filename: dists/bootstrap/main/binary-aarch64/libc++_15.2_aarch64.deb
 Size: 206188
 SHA256: 38c38eae99ef8e78bc98dd088e7d412127f9178ca0ed3300b2a1838bda47846d
 
+Package: libcurl
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.55.1
+Description: Easy-to-use client-side URL transfer library
+Homepage: https://curl.haxx.se/
+Depends: openssl, libnghttp2
+Filename: dists/bootstrap/main/binary-aarch64/libcurl_7.55.1_aarch64.deb
+Size: 145240
+SHA256: df4af876f7deb0cf23d4f0266687fa39c879030661855d007072ff44fe3ed95c
+
 Package: liblzma
 Architecture: aarch64
 Installed-Size: 120

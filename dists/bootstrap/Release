@@ -3,7 +3,7 @@ Version: 1
 Architectures: aarch64
 Description: Main repository
 Suite: termux
-Date: Tue, 12 Sep 2017 21:16:44 UTC
+Date: Tue, 12 Sep 2017 21:20:31 UTC
 SHA256:
- c389cea2e1322d7efc6c18a60d62e447deef242d31c0a3d4f6f7496275ccca97 5494 main/binary-aarch64/Packages
- bbc4e3e5685e040fe4cbc6c71168ba0a1055d4ad729d254d51df4668a94d6e86 1972 main/binary-aarch64/Packages.xz
+ b11c13f436c84ac743af74828269386a817728e20525bedff565d25f07e2aea6 5887 main/binary-aarch64/Packages
+ 01bc02d0f082ce8b6d76efb688c5deb1503bb4997b6fa971e22403f940300918 2096 main/binary-aarch64/Packages.xz
